@@ -19,8 +19,9 @@ def numToPattern(i, k):
     return prefix + sym
 
 if __name__ == '__main__':
-    with open('rosalind_ba1m.txt', 'r+') as f:
-        index = int(f.readline().rstrip())
-        k = int(f.readline().rstrip())
+    print(numToPattern(10, 3))
+    # with open('rosalind_ba1m.txt', 'r+') as f:
+      #  index = int(f.readline().rstrip())
+      #  k = int(f.readline().rstrip())
 
-    print(numToPattern(index, k))
+    # print(numToPattern(index, k))
